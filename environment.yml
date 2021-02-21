@@ -1,0 +1,15 @@
+name: remote-sensing
+channels:
+- defaults
+- conda-forge
+dependencies:
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- pip
+- scikit-learn
+- scipy
+- shapely
+- pip:
+  - sentinelsat
