@@ -65,7 +65,7 @@ pause
 
 ##### s2Downloader.ipynb
 
-In the s2Downloader.ipynb, change the scihub user account and password. Also, specify the parameters to be used in downloading sentinel images. Lastly, change the directory of the output images.  
+In the s2Downloader.ipynb, change the scihub user account and password. Also, specify the parameters to be used in downloading sentinel images. Change the directory of the geojson shapefile, _boundary_, and output directory of the images, _s2OutDir_ and _s3OutDir_.  
 
 ```sh
 def main():
